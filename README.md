@@ -1,3 +1,3 @@
 # who-knows-me better
 
-This space is for the quiz "Who knows me better"
+This project "Who knows me better" is a quiz consists of questions about me.

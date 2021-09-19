@@ -6,25 +6,34 @@ score = 0
 
 var highestScores = [{
   'name': 'Buddu',
-  'score': 3
+  'score': 4
 },{
  'name': 'Vijay',
   'score': 2 
 }]
+
 var qsOne = {
+  'qtn':'What is my nick name ? ',
+  'ans':'buddu'
+}
+var qsTwo = {
   'qtn': 'Where do i live ? ',
   'ans':'pebbair'
 }
-var qsTwo = {
+var qsThree = {
   'qtn':'Who is my favourite cricketer ? ',
   'ans':'kohli'
 }
-var qsThree = {
+var qsFour = {
   'qtn':'Where do i work ? ',
   'ans':'infosys'
 }
+var qsFive = {
+  'qtn':'What is my favourite subject ? ',
+  'ans':'maths'
+}
 
-var questions = [qsOne,qsTwo,qsThree]
+var questions = [qsOne,qsTwo,qsThree,qsFour,qsFive]
 
 for (i=0;i<questions.length;i++){
   var currentQtn = questions[i]
